@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #0d1a2d;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+  }
+  .form{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    background-color: #15273f;
+    width: 280px;
+    height: 490px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 10px 15px #0c1729;
+  }
+  .main-img{
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .image{
+    width: 240px;
+    height: 240px;
+  }
+  .icon{
+    position: absolute;
+    background-color: #00fdf97f;
+    padding: 97px;
+    opacity: 0;
+  }
+  .icon:hover{
+    opacity: 1;
+  }
+  .Title{
+    color: white;
+    display: inline-flex;
+    padding: 0px 0px 0px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .Title:hover{
+    color: #00fdf9;
+  }
+  .discrip{
+    color: #93aaca;
+    padding: 0px 0px 0px 20px;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0;
+  }
+  .help{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .eth i{
+    color: #00fdfa;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+  }
+  .eth p{
+    display: inline-block;
+    color: #00fdfa;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;;
+  }
+  .time{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+  }
+  .time svg{
+    padding: 1px 6px;
+  }
+  .time p{
+    display: inline-block;
+    color: #93aaca;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+  }
+  .line{
+    background-color: #93aaca;
+    height: 1px;
+    width: 100;
+    margin: 0px 20px;
+    opacity: 0.2;
+  }
+  .info{
+    left: 0;
+  }
+  .avatarbg{
+    position: absolute;
+    width: 30px;
+    left: 20px;
+    bottom: 32px
+  }
+  .avatar{
+    position: absolute;
+    width: 28px;
+    left: 21px;
+    bottom: 33.5px
+  }
+  .detail{
+    color: #93aaca;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0px 0px 20px 65px;
+  }
+  .name{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    cursor: pointer;
+  }
+  .name:hover{
+    color: #00fdf9;
+  }
