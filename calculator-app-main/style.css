@@ -1,0 +1,147 @@
+:root{
+    --primary-color: #3B4664;
+    --theme-switch-p: 36px;
+    --theme-switch: #D0362E;
+    --font: white;
+    --themebox: #181F32;
+    --screen: #181F32;
+    --keypad: #252D44;
+    --del-button: #647299;
+    --buton-font: #444D5C;
+    --button: #EAE3DB;
+    --buton-shadow: #B8A79D;
+    --del-buton-shadow: #414E71;
+    --equal-button-font: white;
+    --equal-button: #D13F30;
+    --equal-button-shadow: #8F2316;
+  }
+  body{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container{
+    display: grid;
+    padding: 20px;
+  }
+  .topbar{
+    display: grid;
+    align-items: center;
+    justify-items: right;
+    position: relative;
+  }
+  p{
+    position: absolute;
+    left: 0;
+    color: var(--font);
+    margin: 15px;
+    font-family: League Spartan;
+    font-size: 25px;
+  }
+  .themebox{
+    position: relative;
+    display: inline-flex;
+    background-color: var(--themebox);
+    margin-right: 10px;
+    width: 50px;
+    height: 15px;
+    border-radius: 10px;
+    color: var(--font);
+    justify-content: right;
+  }
+  .theme-switch{
+    position: absolute;
+    background-color: var(--theme-switch);
+    width: 12px;
+    height: 12px;
+    top:1px;
+    right: var(--theme-switch-p);
+    border-radius: 10px;
+  }
+  input[id="theme1"]{
+    position: absolute;
+    opacity: 0;
+    right: 36px;
+  }
+  input[id="theme2"]{
+    position: absolute;
+    opacity: 0;
+    right: 16px;
+  }
+  input[id="theme3"]{
+    position: absolute;
+    right: -4px;
+    opacity: 0;
+  }
+  label[for="theme1"]{
+    position: absolute;
+    font-family: League Spartan;
+    font-size: 15px;
+    right: 42px;
+    top: -17px
+  }
+  label[for="theme2"]{
+    position: absolute;
+    font-family: League Spartan;
+    font-size: 15px;
+    right: 22px;
+    top: -17px
+  }
+  label[for="theme3"]{
+    position: absolute;
+    font-family: League Spartan;
+    font-size: 15px;
+    right: 2px;
+    top: -17px
+  }
+  .screen{
+    width: 420px;
+    height: 100px;
+    background-color: var(--screen);
+    border-radius: 8px;
+    margin: 10px;
+  }
+  .keypad{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    background-color: var(--keypad);
+    border-radius: 8px;
+  }
+  button{
+    background-color: var(--button);
+    font-family: League Spartan;
+    padding: 8px 0 0 0;
+    font-size: 30px;
+    font-weight: 1500;
+    margin: 10px;
+    height: 50px;
+    color: var(--buton-font);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 3px 0px 0px var(--buton-shadow);
+  }
+  .del{
+    font-size: 20px;
+    background-color: var(--del-button);
+    color: white;
+    box-shadow:0 3px 0px 0px var(--del-buton-shadow);
+  }
+  .reset{
+    font-size: 20px;
+    background-color: var(--del-button);
+    color: white;
+    grid-column: span 2;
+    box-shadow:0 3px 0px 0px var(--del-buton-shadow);
+  }
+  .equal{
+    font-size: 20px;
+    background-color: var(--equal-button);
+    color: var(--equal-button-font);
+    grid-column: span 2;
+    box-shadow:0 3px 0px 0px var(--equal-button-shadow);
+  }
