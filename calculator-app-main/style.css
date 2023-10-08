@@ -51,6 +51,13 @@
     color: var(--font);
     justify-content: right;
   }
+  span{
+    position: absolute;
+    right:60px;
+    top: 3px;
+    font-family: League Spartan;
+    font-size: 13px;
+  }
   .theme-switch{
     position: absolute;
     background-color: var(--theme-switch);
