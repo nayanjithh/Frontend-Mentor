@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=League+Spartan:wght@700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="form">
+    <div class="input">
+      <label>DAY</label>
+      <label>MONTH</label>
+      <label>YEAR</label>
+      <input id="DD" type="text" placeholder="DD"></input>
+      <input id="MM" type="text" placeholder="MM"></input>
+      <input id="YY" type="text" placeholder="YYYY"></input>
+      <div class="error"></div>
+      <div class="error"></div>
+      <div class="error"></div>
+    </div>
+    <div class="division">
+      <div class="line"></div>
+      <button style="border: none;" onclick="calculate()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      </button>
+    </div>
+    <div class="resultbar">
+      <div class="result-contain">
+        <span class="resulty">--</span>
+        <span class="label">years</span>
+      </div>
+      <div class="result-contain">
+        <span class="resultm">--</span>
+        <span class="label">months</span>
+      </div>
+      <div class="result-contain">
+        <span class="resultd">--</span>
+        <span class="label">days</span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
