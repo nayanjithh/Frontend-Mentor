@@ -6,4 +6,4 @@ NFT card: https://rcdark.github.io/Frontend-Mentor/nft-preview-card-component-ma
 
 Calculator :https://rcdark.github.io/Frontend-Mentor/calculator-app-main/index.html
 
-Age calculator: 
+Age calculator: https://rcdark.github.io/Frontend-Mentor/age-calculator-app-main/age-calculator-app-main/index.html
