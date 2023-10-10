@@ -1,6 +1,6 @@
 # Frontend-Mentor
 Please ignore those bugs...😅
->MOST OF THEME ARE NOT MOBILE FRIENDLY🥲
+>MOST OF THEM ARE NOT MOBILE FRIENDLY🥲
 
 NFT card: https://rcdark.github.io/Frontend-Mentor/nft-preview-card-component-main/nft-preview-card-component-main/index.html
 
