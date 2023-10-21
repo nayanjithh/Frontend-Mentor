@@ -7,3 +7,7 @@ Please ignore those bugs...😅
 * ## [Calculator](https://rcdark.github.io/Frontend-Mentor/calculator-app-main/index.html)
 
 * ## [Age calculator](https://rcdark.github.io/Frontend-Mentor/age-calculator-app-main/age-calculator-app-main/index.html)
+
+> [!IMPORTANE]
+> Please ignore those bugs...😅
+> MOST OF THEM ARE NOT MOBILE FRIENDLY🥲
