@@ -1,10 +1,10 @@
 # Frontend-Mentor
 
-* ## [NFT card](https://rcdark.github.io/Frontend-Mentor/nft-preview-card-component-main/nft-preview-card-component-main/index.html)
+* ## [NFT card](https://nayanjithh.github.io/Frontend-Mentor/nft-preview-card-component-main/nft-preview-card-component-main/index.html)
 
-* ## [Calculator](https://rcdark.github.io/Frontend-Mentor/calculator-app-main/index.html)
+* ## [Calculator](https://nayanjithh.github.io/Frontend-Mentor/calculator-app-main/index.html)
 
-* ## [Age calculator](https://rcdark.github.io/Frontend-Mentor/age-calculator-app-main/age-calculator-app-main/index.html)
+* ## [Age calculator](https://nayanjithh.github.io/Frontend-Mentor/age-calculator-app-main/age-calculator-app-main/index.html)
 
 > [!IMPORTANT]
 > Please ignore those bugs...😅 and 
